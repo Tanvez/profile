@@ -1,0 +1,121 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+   
+}
+/*global */
+ /* .container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}  */
+
+header{
+    background: #B6EEB9;
+    color: #050505;
+    padding-top:30px;
+    min-height: 70 px;
+    border-bottom: #e8491d 3px solid;
+}
+
+/* header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+} */
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+/* /* .navbar{
+    overflow: hidden;
+    background-color: #3B978B;
+    position: fixed; 
+    top: 0; Position the navbar at the top of the page
+    width: 100%;  Full width 
+
+}  */
+
+.navbar{
+    width: 100%; 
+    
+    top: 0; 
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #61CDF8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+
+
+.container {
+    width: 80%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* boxes */
+
+#boxes{
+    margin-top: 20px;
+
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+#boxes .box3{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box3 img{
+    width: 64px;
+}
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
