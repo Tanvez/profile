@@ -71,6 +71,7 @@ a, a:hover, a:focus {
 #sidebar .sidebar-header {
     padding: 20px;
     background: #6d7fcc;
+    text-align: center;
 }
 
 #sidebar ul.components {
@@ -114,7 +115,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #6d91cc;
 }
 
 #sidebar img {
@@ -218,4 +219,42 @@ a.article, a.article:hover {
         transform: rotate(-45deg) translate(1px, -1px);
     }
 
+}
+
+/* Mason Grid Items */
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+/* body { font-family: sans-serif; } */
+
+/* ---- grid ---- */
+
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
 }
