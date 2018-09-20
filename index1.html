@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>VESNA TAN</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .fa {  
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.fa-youtube {
+  font-size: 28px;
+  text-align: left;
+  padding: 12px;
+  color: red;
+}
+.fa-github {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+}
+
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <img src="profile.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
+  <h3 class="w3-center"><b>VESNA TAN</b></h3>
+  <p>EMAIL: TANVEZI@GMAIL.COM</p>
+  <p>TEL: (347) 724-8761</p>
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">VESNA TAN</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <!-- Photo grid -->
+  
+  <div class="w3-row">
+      <h4 class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32">Things I've helped build</h4>
+    <div class="w3-third">
+      <img src="FrankenStyle.jpg" style="width:100%; padding:20px;" >
+      <p style="padding-left:20px;" > 
+        React, React-Redux, Chrome extension, and CSS
+      </p>
+      <p style="padding-left:20px;" >
+        <a href="https://www.youtube.com/watch?v=zDiktgccGjg&t=4s" class="fa fa-youtube"></a> <a href="https://github.com/FrankenStyle/franken-style-new" class="fa fa-github"></a> 
+      </p>
+    </div>
+    <div class="w3-third">
+      <img src="ArimosJS.jpg" style="width:100%; padding:20px">
+      <p style="padding-left:20px;" > Phaser.io, Webpack, Browsersync, Express, and Sequelize </p>
+      <p style="padding-left:20px;" >
+          <a href="https://www.youtube.com/watch?v=RLWiyAFp2mM" class="fa fa-youtube"></a> 
+          <a href="https://github.com/VesJon/arimos.js " class="fa fa-github"></a> 
+          <a href="https://arimosjs.herokuapp.com"><img style="height: 38px; width:38px;"src="herokuicon.png"></a>
+      </p>
+    </div>
+    <div class="w3-third">
+        <img src="calandar.png" style="width:100%; padding:20px;" >
+        <p style="padding-left:20px;" > 
+        React, React-Redux, Express, PostgreSQL, Sequelize
+        </p>
+        <p style="padding-left:20px;" >
+          <a href="https://github.com/Tanvez/spotify-fellowship-calendar" class="fa fa-github"></a> 
+          <a href="https://spotify-calendar-app.herokuapp.com/"><img style="height: 38px; width:38px;"src="herokuicon.png"></a>
+        </p>
+  </div>
+</div>
+
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>About Me</b></h4>
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h4>Vesna Tan</h4>
+      <p>I'm a fullstack software developer
+        who is passionate about producing intuitive user experience.
+       <br/> <br>How I got into coding was during my final semester in college, I took an intro to computer science and from that first "for" loop, everything clicked for me. However I could not change majors because at the time i was graduating with an BS in Accounting.</br>
+      </p>
+      <p>
+        In my previous accounting role I've was seen as a technical person. I would train new interns and employees on all types of accounting applications. I would talk to vendors and troubleshoot software. From these experiences I realized that software development is where my passion lies so I applied to Fullstack to deepen my technical knowledge. And going forward I’m looking for a software development role building a consumer facing product.
+      </p>
+
+      <hr class="w3-opacity">
+      <h4 class="w3-padding-16">Technical Skills</h4>
+      <p class="w3-wide">React, Redux, React-Redux React.js Full-Stack Web Development (Node/Redux/React)</p>
+      <p class="w3-wide"> SQL, Sequelize, PostgreSQL, Webpack, Express.js, PassportJS, OAuth, Chrome Extensions, Javascript, C++, Cascading Style Sheet (CSS), Git, HTML</p>
+      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom"
+        onclick="window.location.href='https://drive.google.com/open?id=15s7htoF44qYAr0BD5smt0Ht0ew29mmBI'"
+        >Resume</button></p>
+      <hr class="w3-opacity">
+    </div>
+  </div>
+  
+<!-- End page content -->
+</div>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

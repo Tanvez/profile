@@ -1,135 +1,133 @@
 <!DOCTYPE html>
 <html>
-<title>VESNA TAN</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-  .fa {  
-  width: 42px;
-  height: 42px;
-  text-align: center;
-  text-decoration: none;
-  
-}
-.fa-youtube {
-  font-size: 28px;
-  text-align: left;
-  padding: 12px;
-  color: red;
-}
-.fa-github {
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-}
 
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-.w3-third img{margin-bottom: -6px; cursor: pointer}
-.w3-third img:hover{opacity: 1}
-</style>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
-  <img src="profile.jpg" alt="Me" class="w3-image w3-padding-32" width="600" height="650">
-  <h3 class="w3-center"><b>VESNA TAN</b></h3>
-  <p>EMAIL: TANVEZI@GMAIL.COM</p>
-  <p>TEL: (347) 724-8761</p>
-  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PORTFOLIO</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
-</nav>
+    <title>Vesna Tan</title>
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">VESNA TAN</span>
-  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
-</header>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    <!-- Font Awesome JS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+</head>
 
-  <!-- Push down content on small screens -->
-  <div class="w3-hide-large" style="margin-top:83px"></div>
+<body>
 
-  <!-- Photo grid -->
-  
-  <div class="w3-row">
-      <h4 class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32">Things I've helped build</h4>
-    <div class="w3-third">
-      <img src="FrankenStyle.jpg" style="width:100%; padding:20px;" >
-      <p style="padding-left:20px;" > 
-        React, React-Redux, Chrome extension, and CSS
-      </p>
-      <p style="padding-left:20px;" >
-        <a href="https://www.youtube.com/watch?v=zDiktgccGjg&t=4s" class="fa fa-youtube"></a> <a href="https://github.com/FrankenStyle/franken-style-new" class="fa fa-github"></a> 
-      </p>
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Vesna Tan</h3>
+            </div>
+            <img src="profile.jpg" >
+            <ul class="social-icons">
+                <li>
+                        <i class="fab fa-linkedin-in"></i>
+                </li>
+                <li>
+                        <i class="fab fa-github"></i>
+                </li>
+                <li>
+                        <i class="fab fa-linkedin-in"></i>
+                </li>
+            </ul>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+    
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
     </div>
-    <div class="w3-third">
-      <img src="ArimosJS.jpg" style="width:100%; padding:20px">
-      <p style="padding-left:20px;" > Phaser.io, Webpack, Browsersync, Express, and Sequelize </p>
-      <p style="padding-left:20px;" >
-          <a href="https://www.youtube.com/watch?v=RLWiyAFp2mM" class="fa fa-youtube"></a> 
-          <a href="https://github.com/VesJon/arimos.js " class="fa fa-github"></a> 
-          <a href="https://arimosjs.herokuapp.com"><img style="height: 38px; width:38px;"src="herokuicon.png"></a>
-      </p>
-    </div>
-    <div class="w3-third">
-        <img src="calandar.png" style="width:100%; padding:20px;" >
-        <p style="padding-left:20px;" > 
-        React, React-Redux, Express, PostgreSQL, Sequelize
-        </p>
-        <p style="padding-left:20px;" >
-          <a href="https://github.com/Tanvez/spotify-fellowship-calendar" class="fa fa-github"></a> 
-          <a href="https://spotify-calendar-app.herokuapp.com/"><img style="height: 38px; width:38px;"src="herokuicon.png"></a>
-        </p>
-  </div>
-</div>
 
-  <!-- About section -->
-  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
-    <h4><b>About Me</b></h4>
-    <div class="w3-content w3-justify" style="max-width:600px">
-      <h4>Vesna Tan</h4>
-      <p>I'm a fullstack software developer
-        who is passionate about producing intuitive user experience.
-       <br/> <br>How I got into coding was during my final semester in college, I took an intro to computer science and from that first "for" loop, everything clicked for me. However I could not change majors because at the time i was graduating with an BS in Accounting.</br>
-      </p>
-      <p>
-        In my previous accounting role I've was seen as a technical person. I would train new interns and employees on all types of accounting applications. I would talk to vendors and troubleshoot software. From these experiences I realized that software development is where my passion lies so I applied to Fullstack to deepen my technical knowledge. And going forward I’m looking for a software development role building a consumer facing product.
-      </p>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-      <hr class="w3-opacity">
-      <h4 class="w3-padding-16">Technical Skills</h4>
-      <p class="w3-wide">React, Redux, React-Redux React.js Full-Stack Web Development (Node/Redux/React)</p>
-      <p class="w3-wide"> SQL, Sequelize, PostgreSQL, Webpack, Express.js, PassportJS, OAuth, Chrome Extensions, Javascript, C++, Cascading Style Sheet (CSS), Git, HTML</p>
-      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom"
-        onclick="window.location.href='https://drive.google.com/open?id=15s7htoF44qYAr0BD5smt0Ht0ew29mmBI'"
-        >Resume</button></p>
-      <hr class="w3-opacity">
-    </div>
-  </div>
-  
-<!-- End page content -->
-</div>
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
-
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
 </body>
+
 </html>
