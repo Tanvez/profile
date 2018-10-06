@@ -1,0 +1,10 @@
+{
+  "extends": "eslint-config-airbnb",
+  "env": {
+  "node": true,
+  "es6": true,
+  "browser": true
+  }, 
+    "linebreak-style":0,
+    "react/jsx-filename-extension":0
+}
